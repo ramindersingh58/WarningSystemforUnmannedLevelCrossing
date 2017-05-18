@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_track"
+            android:icon="@android:drawable/ic_menu_mylocation"
+            android:title="My Track" />
+        <!--<item-->
+            <!--android:id="@+id/nav_alerts"-->
+            <!--android:icon="@android:drawable/ic_menu_agenda"-->
+            <!--android:title="Alerts/Messages" />-->
+        <!--<item-->
+            <!--android:id="@+id/nav_route"-->
+            <!--android:icon="@android:drawable/ic_menu_directions"-->
+            <!--android:title="Optimal Route" />-->
+        <!--<item-->
+            <!--android:id="@+id/nav_stop_alert"-->
+            <!--android:icon="@android:drawable/ic_menu_help"-->
+            <!--android:title="Raise an Stop Alert" />-->
+    </group>
+
+    <item android:title="Profile">
+        <menu>
+            <item
+                android:id="@+id/nav_myprofile"
+                android:icon="@drawable/profile"
+                android:title="My Profile" />
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_ip_setup"
+                android:title="Settings" />
+            <item
+                android:id="@+id/nav_password"
+                android:icon="@android:drawable/ic_lock_idle_lock"
+                android:title="Change Password" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/logout"
+                android:title="Log Out" />
+        </menu>
+    </item>
+
+</menu>

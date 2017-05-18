@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Warning System for ULC</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="need_help">Need Help ?</string>
+    <string name="not_a_member_signup">Not a Member..SignUp?</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
